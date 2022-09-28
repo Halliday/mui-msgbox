@@ -1,7 +1,7 @@
 import { VolumeDown, VolumeUp } from '@mui/icons-material';
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogProps, DialogTitle, Slider, Stack } from '@mui/material';
 import React, { useState } from 'react';
-import { MsgBox, MsgBoxProvider } from './MsgBox';
+import { MsgBox, MsgBoxContainer } from './MsgBox';
 
 function App() {
 
@@ -41,7 +41,7 @@ function App() {
       <Button onClick={yesNoMsgBox}>Yes/No MsgBox</Button>
       <Button onClick={okCancelMsgBox}>Ok/Cancel MsgBox</Button>
       <Button onClick={customMsgBox}>Custom MsgBox</Button>
-      <MsgBoxProvider />
+      <MsgBoxContainer />
     </div>
   );
 }

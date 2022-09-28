@@ -27,7 +27,7 @@ type MsgBoxInstance = {
 
 let instance: MsgBoxInstance | null = null;
 
-export function MsgBoxProvider() {
+export function MsgBoxContainer() {
     const [state, setState] = useState<MsgBoxState | null>(null);
     const [open, setOpen] = React.useState(false);
 

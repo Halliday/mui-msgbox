@@ -1,2 +1,2 @@
-export { MsgBox, MsgBoxProvider, reportError } from './MsgBox';
+export { MsgBox, MsgBoxContainer, reportError } from './MsgBox';
 export type { MsgBoxState } from './MsgBox';
