@@ -1,7 +1,8 @@
 {
   "name": "@halliday/mui-msgbox",
   "version": "1.0.0",
-  "private": true,
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
