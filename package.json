@@ -1,8 +1,10 @@
 {
-  "name": "mui-msgbox",
-  "version": "0.1.0",
+  "name": "@halliday/mui-msgbox",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -16,11 +18,17 @@
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
+  "peerDependencies": {
+    "@mui/material": "^5.10.7",
+    "@mui/icons-material": "^5.10.6"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "tsc-watch": "tsc --watch",
+    "tsc-build": "tsc"
   },
   "eslintConfig": {
     "extends": [
